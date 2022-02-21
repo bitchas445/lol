@@ -65,3 +65,10 @@ bIsTargeting = 0x9F9
 WeaponLevel = 0xA6C
 AmmoCount = 0xA70
 bSpotted = 0x54A
+
+--- VIRTUAL FUNCTIONS / VTABLES ---
+SetIgnoreLookInput : 0x7B0
+ClientSetCameraMode : 0x9A8
+GetFOVAngle: 0x748
+GetCameraLocation: 0x790
+GetCameraRotation: 0x788
